@@ -19,7 +19,7 @@ const transforme_en_tableau = (collection) => {
 ////////////////////////////////////////////// Route /html/01_form.html
 app.get('/formulaire', function (req, res) {
  console.log(__dirname);
- res.sendFile( __dirname + "/public/html/" + "form.html" );
+ res.sendFile( __dirname + "/public/html/" + "index.htm" );
 })
 ////////////////////////////////////////////// Route /
 app.get('/', (req, res) => {
